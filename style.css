@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.profile_card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #0066cc;
+    box-shadow: 0 4px 10px #2b2b2b;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+
+button {
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0066cc;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+
+#contact_form button {
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0066cc;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+
+p {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+}
+
+
+.profile_card {
+    background-color: #eef5ff;
+    padding: 15px;
+    border-left: 5px solid #0066cc;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+#schedule {
+    background-color: #ffffff;
+    border: 2px solid #007bff;
+    padding: 10px;
+}
+
+
+nav a {
+    color: #eaff00;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+
+nav a:hover {
+    color: rgba(255, 255, 0, 0.536);
+}
+
+
+body  {
+    background-color: #f4f6f8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #1a252f;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+h3 {
+    font-size: 22px;
+}
+
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+a:hover {
+    color: #004080;
+    text-decoration: underline;
+}
+
+
+section {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+
+nav {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #1a252f;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+header{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 20px;
+    background-color: #1a252f;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+header h1, header h2 {
+    color: #ffffff;
+}
+
+
+#contact_form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#contact_form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+    margin-bottom: 12px;
+}
+
+
+#contact_form label {
+    width: 150px;
+    text-align: right;
+    margin-right: 12px;
+}
+
+
+#contact_form input {
+    width: 170px;
+    box-sizing: border-box;
+}
+
+
+#schedule table{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+
+#schedule th, #schedule td {
+    text-align: left;
+    padding: 12px 20px;
+}
+
+
+#schedule th {
+    border-bottom: 2px solid #2b2b2b;
+}
+
+
+footer {
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+section ul {
+    margin: 0 auto;
+    width: fit-content;
+    padding-left: 20px;
+    text-align: left;
+}
+
+
+section ol {
+    margin: 0 auto;
+    width: fit-content;
+    padding-left: 20px;
+    text-align: left;
+}
+
+
+a:focus-visible, button:focus-visible, input:focus-visible {
+    outline: 3px solid #ffbf47;
+    outline-offset: 3px;
+}
